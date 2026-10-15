@@ -8,12 +8,9 @@ Organization-wide GitHub community health files and contribution templates.
 format. See [the usage guide](docs/pull-request-guide.md) for title and content
 guidance.
 
-This repository is private. GitHub's organization-wide default community health
-file feature requires the organization's `.github` repository to be public, so
-GitHub will not automatically use this template across KeepSafe repositories
-while this repository remains private. Repositories can adopt it by copying the
-file to their own `.github/pull_request_template.md`; automated distribution
-would require a separate workflow.
+This repository is public so GitHub can use its community health files as
+organization-wide defaults. Repositories that have their own pull request
+template continue to use that repository-level template.
 
 The template guides PR descriptions; GitHub does not use it to set or enforce
 pull request titles. Linear issue IDs and outcome-focused titles are described

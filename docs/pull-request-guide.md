@@ -7,12 +7,11 @@ for the relevant release model.
 
 ## Adoption
 
-This private repository is the canonical source. GitHub's organization-wide
-default community health files require a public `.github` repository; while this
-repository is private, GitHub will not automatically load this template for
-other repositories. To use it in a repository today, copy it to that repository's
+This public `.github` repository is the canonical source for KeepSafe's
+organization-wide default. GitHub uses it for repositories that do not define
+their own pull request template; a repository-level template takes precedence.
+If a repo needs a tailored template, copy this file to its
 `.github/pull_request_template.md`, adapting commands and observability references.
-Reconcile existing templates and PR tooling when adopting it.
 
 ## Title
 
