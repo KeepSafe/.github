@@ -10,8 +10,10 @@ for the relevant release model.
 This public `.github` repository is the canonical source for KeepSafe's
 organization-wide default. GitHub uses it for repositories that do not define
 their own pull request template; a repository-level template takes precedence.
-If a repo needs a tailored template, copy this file to its
-`.github/pull_request_template.md`, adapting commands and observability references.
+KeepSafe repositories should not copy or maintain local pull request templates:
+remove existing local templates so GitHub displays this default. The shared
+`submit-github-pr` skill fetches this organization template directly for every
+KeepSafe PR, even while a repository-local template remains.
 
 ## Title
 
